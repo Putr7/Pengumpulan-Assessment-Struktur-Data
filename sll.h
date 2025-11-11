@@ -44,7 +44,7 @@ void printList(List a);
 // Deklarasi subprogram yang diminta
 void insertSorted(List &a, address p);
 void printByUsername(List a, string username);
-address Popular(List a);
+address popular(List a);
 void likes(List &a, int postID, bool isLike);
 
 
