@@ -23,6 +23,7 @@ sll.h (header)
 using namespace std;
 
 //deklarasi struct infotype
+
 struct infotype
 {
     int ID;
@@ -35,6 +36,7 @@ struct element;
 typedef element *address;
 
 //deklarasi struct linked list
+
 struct element
 {
     infotype info;
@@ -47,6 +49,7 @@ struct List
 };
 
 //deklarasi subprogram
+
 address allocate(infotype data);
 void createNewList(List &a);
 bool isEmpty(List a);
@@ -55,7 +58,8 @@ void insertAfter(List &a, infotype x, address p);
 address findElement(List a, infotype x);
 void printList(List a);
 
-// Deklarasi subprogram yang diminta
+
+
 void insertSorted(List &a, address p);
 void printByUsername(List a, string username);
 address findMostPopular(List a);
