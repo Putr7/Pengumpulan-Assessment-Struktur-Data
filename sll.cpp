@@ -24,7 +24,7 @@ void insertAfter(List &a, infotype x, address p){
     //tidak wajib diisi
 }
 
-//tidak terpakai
+//tidak  terpakai
 void deleteFirst(List &a, address p){
     p = first(a);
     first(a) = next(p);
