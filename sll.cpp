@@ -105,7 +105,7 @@ void printByUsername(List a, string username) {
     }
 }
 
-address Popular(List a) {
+address popular(List a) {
     if (isEmpty(a)) {
         return NIL;
     }
