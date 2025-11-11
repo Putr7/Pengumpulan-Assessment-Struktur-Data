@@ -1,4 +1,4 @@
-Praktikum 1 - Struktur Data Linked List (Aplikasi MyTelu)
+Assessment - Struktur Data Linked List (Aplikasi MyTelu)
 Identitas Pengumpul
 
 Nama: [Putra Anugrah pamungkas]
