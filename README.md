@@ -275,7 +275,8 @@ int main() {
     return 0;
 }
 
-2. Penjelasan Kode
+Penjelasan Kode
+
 sll.h (Header File)
 File ini berisi definisi tipe data dan deklarasi subprogram untuk Single Linked List:
 -Mendefinisikan first, next, info, dan NIL (NULL) untuk memudahkan akses elemen list.
