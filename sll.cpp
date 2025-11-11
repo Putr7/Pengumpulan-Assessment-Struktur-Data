@@ -105,7 +105,7 @@ void printByUsername(List a, string username) {
     }
 }
 
-address findMostPopular(List a) {
+address Popular(List a) {
     if (isEmpty(a)) {
         return NIL;
     }
@@ -125,7 +125,7 @@ address findMostPopular(List a) {
     return mostPopularPost;
 }
 
-void updateLikes(List &a, int postID, bool isLike) {
+void likes(List &a, int postID, bool isLike) {
     address p = first(a);
     while (p != NIL && info(p).ID != postID) {
         p = next(p);
