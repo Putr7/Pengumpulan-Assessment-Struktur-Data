@@ -37,7 +37,7 @@ int main() {
     printByUsername(a, "rudi");
     cout << "\n" << endl;
 
-    address popularPost = findMostPopular(a);
+    address popularPost = popular(a);
     if (popularPost != NIL) {
         cout << "--- Postingan Terpopuler ---" << endl;
         cout << "ID: " << info(popularPost).ID
@@ -50,11 +50,11 @@ int main() {
     }
 
 
-    updateLikes(a, 102, true);
+    likes(a, 102, true);
     cout << "\n--- Setelah +1 Like pada ID 102 ---" << endl;
     printList(a);
 
-    updateLikes(a, 103, false);
+    likes(a, 103, false);
     cout << "\n--- Setelah -1 Unlike pada ID 103 ---" << endl;
     printList(a);
     cout << "\n" << endl;
